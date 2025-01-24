@@ -1,0 +1,8 @@
+ALGORITHM algorithm_name
+VAR
+  word-count:CHAR
+  vowel-count:CHAR
+  length:CHAR  set_declarations
+BEGIN
+    set_instructions
+END
