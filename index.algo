@@ -2,7 +2,25 @@ ALGORITHM algorithm_name
 VAR
   word-count:CHAR
   vowel-count:CHAR
-  length:CHAR  set_declarations
+  length:CHAR 
+ set_declarations
 BEGIN
-    set_instructions
+   if not sentence.endswith('.'):
+    print("The sentence must end with a point.")
+else:
+    
+    
+    for i in sentence:
+       
+        length += 1
+        
+        if  in 'aeiou':
+            vowel_count += 1
+      
+        if   in_word:
+            word_count += 1
+            in_word = True
+        else if :
+            in_word = False
+ 
 END
